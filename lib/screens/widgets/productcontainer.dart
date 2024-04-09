@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+import 'package:shop_app/screens/custom.dart';
 
 class ProductContainerCustom extends StatefulWidget {
   const ProductContainerCustom({super.key});
@@ -9,6 +9,8 @@ class ProductContainerCustom extends StatefulWidget {
 }
 
 class _ProductContainerCustomState extends State<ProductContainerCustom> {
+  CustomClass custom = CustomClass();
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -31,12 +33,24 @@ class _ProductContainerCustomState extends State<ProductContainerCustom> {
                 backgroundColor: Colors.transparent,
                 appBar: AppBar(
                   backgroundColor: Colors.transparent,
-                  title: const Text(
-                    "3 000MGA",
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 18,
-                    ),
+                  title: RichText(
+                    text: TextSpan(
+                        text: "3 000",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18,
+                          color: custom.dark_font_color,
+                        ),
+                        children: [
+                          TextSpan(
+                            text: "MGA",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              color: custom.button_color,
+                              fontSize: 18,
+                            ),
+                          ),
+                        ]),
                   ),
                   actions: [
                     IconButton(
@@ -48,6 +62,10 @@ class _ProductContainerCustomState extends State<ProductContainerCustom> {
                       ),
                     ),
                   ],
+                ),
+                body: const Image(
+                  image: AssetImage("assets/images/asus_rog_f17.jpg"),
+                  alignment: Alignment.center,
                 ),
                 bottomNavigationBar: const BottomAppBar(
                   color: Colors.transparent,

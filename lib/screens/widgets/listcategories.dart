@@ -24,7 +24,7 @@ class _ListCategorieCustomState extends State<ListCategorieCustom> {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: custom.icon_color,
-                fontSize: 16,
+                fontSize: 14,
               ),
             ),
           ),
@@ -35,7 +35,7 @@ class _ListCategorieCustomState extends State<ListCategorieCustom> {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: custom.dark_font_color,
-                fontSize: 16,
+                fontSize: 14,
               ),
             ),
           ),
@@ -46,7 +46,7 @@ class _ListCategorieCustomState extends State<ListCategorieCustom> {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: custom.icon_color,
-                fontSize: 16,
+                fontSize: 14,
               ),
             ),
           ),
@@ -57,7 +57,7 @@ class _ListCategorieCustomState extends State<ListCategorieCustom> {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: custom.icon_color,
-                fontSize: 16,
+                fontSize: 14,
               ),
             ),
           ),
