@@ -18,7 +18,7 @@ class _SearchFieldState extends State<SearchField> {
       child: TextFormField(
         textAlignVertical: TextAlignVertical.bottom,
         decoration: InputDecoration(
-          helperText: "Inona le tedavina?",
+          helperText: "Keske tu veux",
           filled: true,
           fillColor: const Color.fromARGB(255, 255, 255, 255),
           suffixIcon: Container(

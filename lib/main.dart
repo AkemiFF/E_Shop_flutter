@@ -1,7 +1,7 @@
 // ignore_for_file: non_constant_identifier_names, unused_field
 
 import 'package:flutter/material.dart';
-import 'package:shop_app/screens/home.dart';
+import 'package:shop_app/screens/home/home.dart';
 
 void main() {
   runApp(const Main());

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:shop_app/screens/custom.dart';
-import 'package:shop_app/screens/widgets/bottomappbar.dart';
-import 'package:shop_app/screens/widgets/listcategories.dart';
-import 'package:shop_app/screens/widgets/productcontainer.dart';
-import 'package:shop_app/screens/widgets/searchfield.dart';
+import 'package:shop_app/screens/home/widgets/bottomappbar.dart';
+import 'package:shop_app/screens/home/widgets/listcategories.dart';
+import 'package:shop_app/screens/home/widgets/productcontainer.dart';
+import 'package:shop_app/screens/home/widgets/searchfield.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
